@@ -34,9 +34,6 @@ server.listen(8080, function() {
 	  this.stop();
       })
       .after(500, function(){
-	      this.flip();
-	  })
-      .after(500, function(){
 	      this.land();
 	  });
 
